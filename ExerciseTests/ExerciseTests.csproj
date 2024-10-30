@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Syntax\Exercises.csproj" />
+    <ProjectReference Include="..\Exercises\Exercises.csproj" />
   </ItemGroup>
 
   <ItemGroup>
