@@ -7,13 +7,15 @@ namespace Exercises
         public static string Main()
         {
             //Multiline string to concat
-            string a = "Hello ";
-            string b = "World";
-            string c = "!";
+            string firstPartSentence = "Hello ";
+            string secondPartSentence = "World";
+            string thirdPartSentence = "!";
 
-            Console.WriteLine(a + b + c);
+            Console.WriteLine(firstPartSentence + secondPartSentence + thirdPartSentence);
 
-            return a + b + c;
+            string fullSentence = firstPartSentence + secondPartSentence + thirdPartSentence;
+
+            return fullSentence;
         }
     }
 }
